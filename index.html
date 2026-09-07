@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#5146e5"><meta name="description" content="Practice UPSC CSE Prelims previous-year questions with instant answers, explanations, mistake revision, bookmarks and progress tracking.">
+<meta name="robots" content="index,follow"><link rel="canonical" href="./"><link rel="icon" href="assets/logo.png">
+<title>UPSC Prelims PYQ Practice — Free PYQ Practice</title>
+<link rel="stylesheet" href="styles.css">
+</head><body>
+<header class="site-header"><div class="shell nav-wrap">
+<a class="brand" href="./"><img src="assets/logo.png" alt="UPSC Prelims PYQ Practice"><span><strong>UPSC PRELIMS</strong><small>PYQ PRACTICE</small></span></a>
+<nav class="nav" aria-label="Primary"><a href="#practice">Practice</a><a href="#pyqs">PYQs</a><a href="#progress">Progress</a><a href="#extension">Extension</a></nav>
+<button id="mobileMenu" class="menu-btn" aria-label="Menu">☰</button></div></header>
+<main>
+<section class="hero shell"><div class="hero-copy"><div class="eyebrow"><i></i> UPSC CSE · PRELIMS</div>
+<h1>Make your <span>New Tab</span> a study habit.</h1>
+<p class="hero-lead">Practice UPSC Prelims previous-year questions, learn from the explanation, and build a personal mistake-revision set — right in your browser.</p>
+<div class="hero-actions"><a class="primary-btn" href="#practice">Start practicing <b>→</b></a><a class="secondary-btn" href="#extension">Get the New Tab extension</a></div>
+<div class="hero-proof"><div><strong id="count">—</strong><span>PYQs</span></div><div><strong>2011–2026</strong><span>coverage</span></div><div><strong>100%</strong><span>free practice</span></div></div></div>
+<div class="hero-card"><div class="orb"></div><div class="pills"><span id="heroYear" class="pill dark">—</span><span id="heroSubject" class="pill">—</span><span class="pill muted">PYQ</span></div><div class="mini-label">TODAY'S QUESTION</div><div id="heroQuestion" class="mini-question">Loading…</div><div id="heroOptions" class="mini-options"></div><button class="mini-cta" id="heroSolve">Solve this question →</button></div></section>
+
+<section id="practice" class="section shell"><div class="section-head"><div><span class="kicker">Practice</span><h2>One question. Full attention.</h2><p>Answer first. Check your reasoning second.</p></div><div class="modes"><button data-mode="all" class="mode active">All</button><button data-mode="mistakes" class="mode">Mistakes</button><button data-mode="bookmarks" class="mode">Bookmarks</button></div></div>
+<div class="filter-strip"><label><span>Year</span><select id="year"><option value="all">All years</option></select></label><label><span>Subject</span><select id="subject"><option value="all">All subjects</option></select></label><label class="search"><span>Search</span><input id="search" type="search" placeholder="Search questions, concepts or words…"></label><button id="clear" class="clear">Clear</button></div>
+<article id="card" class="practice-card"><div class="meta-row"><div class="pills"><span id="qYear" class="pill dark">—</span><span id="qSubject" class="pill">—</span><span class="pill muted">UPSC CSE Prelims</span></div><div id="qIndex" class="q-index">Question</div></div><div class="q-toolbar"><span>PRELIMS GS PAPER I</span><button id="bookmark" class="bookmark" aria-label="Bookmark">☆</button></div><div id="question" class="question">Loading…</div><div id="options" class="options"></div><div class="answer-row"><button id="check" class="primary-btn" disabled>Check answer</button><button id="next" class="secondary-btn" hidden>Next question <b>→</b></button></div><section id="feedback" class="feedback" hidden><div class="feedback-head"><strong id="feedbackTitle"></strong><span id="feedbackAnswer"></span></div><div id="feedbackText"></div></section></article>
+<div id="empty" class="empty" hidden><div>✓</div><h3>No questions found</h3><p>Try another filter or switch out of Mistakes/Bookmarks.</p><button id="clearEmpty" class="secondary-btn">Clear filters</button></div></section>
+
+<section id="pyqs" class="section alt"><div class="shell"><div class="section-head simple"><div><span class="kicker">Browse</span><h2>Browse the question bank.</h2><p>Jump into a high-value subject and start practicing.</p></div></div><div id="browse" class="browse-grid"></div></div></section>
+
+<section id="progress" class="section shell"><div class="section-head simple"><div><span class="kicker">Progress</span><h2>Your practice dashboard.</h2><p>Saved locally in this browser.</p></div></div><div class="stats-grid"><div class="stat highlight"><span>Today</span><strong id="sToday">0</strong><small>attempted</small></div><div class="stat"><span>Accuracy</span><strong id="sAcc">—</strong><small>today</small></div><div class="stat"><span>Mistakes</span><strong id="sMistakes">0</strong><small>questions to revise</small></div><div class="stat"><span>Bookmarks</span><strong id="sBookmarks">0</strong><small>saved</small></div></div><div id="bars" class="bars"></div></section>
+
+<section id="extension" class="extension"><div class="shell ext-box"><div><span class="kicker">Chrome + Edge</span><h2>Practice a PYQ every new tab.</h2><p>One quick question appears whenever you open a new tab, so revision becomes part of your browsing habit.</p></div><div class="ext-features"><span>✓ Instant feedback</span><span>✓ Mistake revision</span><span>✓ Bookmarks</span><span>✓ Local progress</span></div><div class="ext-buttons"><a id="chromeLink" class="primary-btn" href="#">Chrome extension</a><a id="edgeLink" class="secondary-btn" href="#">Edge extension</a></div><small>Store links will appear here once the public listings are approved.</small></div></section>
+</main>
+<footer class="footer"><div class="shell"><div><strong>UPSC Prelims PYQ Practice</strong><span>Independent study tool for UPSC CSE Prelims aspirants.</span></div><div><a href="privacy-policy.html">Privacy Policy</a><a href="#">About</a><a href="#">Contact</a></div></div></footer>
+<div id="toast" class="toast" aria-live="polite"></div>
+<script src="app.js"></script></body></html>
